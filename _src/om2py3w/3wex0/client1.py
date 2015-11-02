@@ -18,7 +18,12 @@ while True:  # 利用while循环实现重复调用脚本效果
   if content == '?':
   	print '打印当前，帮助输入？'
   	print '退出笔记，请按CTRL+C'
-  	continue
+  	print '同步笔记历史，请按r'
+
+  elif content == 'r':
+    now = open('all.txt')
+    print now.read()
+    now.close()
 
   else:
   	s.sendto(content, ('127.0.0.1', 9999))
