@@ -1,9 +1,6 @@
 # _*_ coding: utf-8 _*_
 # client1
-
-from sys import argv 
 import socket # 导入socket
-import time  # 引入时间模块
 
 history = open('all.txt')
 print history.read()
