@@ -7,7 +7,7 @@ print history.read()
 history.close()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # 创建socket，UDP类型
-
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 while True:  # 利用while循环实现重复调用脚本效果
   content = raw_input("content: ") # 输入日记内容
