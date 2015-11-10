@@ -20,5 +20,5 @@ def do_write():
 
 
 if __name__ == '__main__':
-    debug(True) # debug
-    run(host='localhost', port=8090, reloader=True) 
+	debug(True) # debug
+	run(host='localhost', port=8090, reloader=True) 

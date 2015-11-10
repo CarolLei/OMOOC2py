@@ -11,7 +11,7 @@ def write():
 def do_write():
     content = request.forms.get('content') # 用户名
     if content:
-        file = open('all.txt', 'a+') 
+        file = open('all.txt', 'a+')
         file.seek(0)
         date = time.strftime("%Y-%m-%d %H:%M:%S ", time.localtime())
         file.write(date + "\n" + content + "\n\n")
@@ -20,5 +20,5 @@ def do_write():
 
 
 if __name__ == '__main__':
-    debug(True) # debug
-    run(host='localhost', port=8090, reloader=True) 
+	debug(True) # debug
+	run(host='localhost', port=8090, reloader=True) 
