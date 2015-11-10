@@ -1,6 +1,7 @@
 # _*_ coding: utf-8 _*_
 from bottle import*
 import time  # 引入时间模块
+import socket
 
 
 @route('/write')
