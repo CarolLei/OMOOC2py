@@ -4,8 +4,10 @@ import time  # 引入时间模块
 import socket
 
 
+
 @route('/write')
 def write():
+    
     return template('form.html')
 
 @route('/write', method='POST') 
@@ -18,6 +20,8 @@ def do_write():
         file.write(date + "\n" + content + "\n\n")
         file.seek(0)
         return template('form2.html', file=file,content=content)
+
+
 
 
 if __name__ == '__main__':

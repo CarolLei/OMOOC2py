@@ -1,10 +1,8 @@
-# _*_ coding: utf-8 _*_
-# client1
 import urllib
 import urllib2
 
 while True:
-    content = raw_input("content: ")
+	content = raw_input("content: ")
     values = {"content": content}
     data = urllib.urlencode(values)
     url = "http://localhost:8090/write"
@@ -13,3 +11,8 @@ while True:
     file = open('all.txt','r')
     print file.read()
     file.close()
+
+
+
+
+
