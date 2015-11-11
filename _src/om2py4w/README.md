@@ -5,5 +5,5 @@
 - 网页端日记:
     + 启动main.py
     + 在浏览器输入localhost:8090/write, 见下图:
-   [] (https://github.com/junjielizero/OMOOC2py/blob/master/_src/om2py4w/4wex0/初始界面.png)
+   ！[image] (https://raw.githubusercontent.com/junjielizero/OMOOC2py/master/_src/om2py4w/4wex0/初始界面.png)
     + 在输入框输入内容，打印以往笔记，见下图

@@ -23,11 +23,11 @@ while True:
       now.close()
 
     else:
-      values = {"content": content}
-      data = urllib.urlencode(values)
+      values = {"content": content}  # 模拟网页手动输入，用字典方式传递
+      data = urllib.urlencode(values) 
       url = "http://localhost:8090/write"
-      request = urllib2.Request(url, data)
-      response = urllib2.urlopen(request)
+      request = urllib2.Request(url, data) # 传递字典，网页链接
+      response = urllib2.urlopen(request) 
       file = open('all.txt','r')
       print file.read()
       file.close()
