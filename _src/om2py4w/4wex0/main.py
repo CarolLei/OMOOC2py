@@ -28,9 +28,6 @@ def do_write():
         file.seek(0)
         return template('form2.html', file=file,content=content) # 打印文档、输入内容，利用for……循环打印效果
 
-
-
-
 if __name__ == '__main__':
     debug(True) # debug
     run(host='localhost', port=8090, reloader=True) 

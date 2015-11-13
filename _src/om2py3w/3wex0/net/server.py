@@ -42,7 +42,7 @@ while True:
     all.seek(0)
 
     date = time.strftime("%Y-%m-%d %H:%M:%S ", time.localtime())
-    all.write(index + "\n" + date + "\n" + content + "\n\n")
+    all.write(index + " " + date + "\n" + content + "\n\n")
 
     # 在服务端观察输入效果
     print index + "\n"
