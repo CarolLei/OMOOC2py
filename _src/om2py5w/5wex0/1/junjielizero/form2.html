@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>My diary</title>
+</head>
+<body>
+	<p>My diary</p>
+
+<form action="/write" method="post">
+      content: <input name="content" type="text" />
+</form>
+    <p>{{ content }}</p>
+
+    
+  
+     %for k in sorted(kv.getkeys_by_prefix("c:")):    
+     <pre>{{ kv.get(k) }}</pre>
+     %end
+</body>
+</html>
