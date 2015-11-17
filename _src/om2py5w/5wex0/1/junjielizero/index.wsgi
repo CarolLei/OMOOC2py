@@ -65,15 +65,3 @@ def do_write():
         return template('form2.html',content=content,kv=kv,k=k) # 打印文档、输入内容，利用for……循环打印效果
 
 application = sae.create_wsgi_app(app)
-
-
-
-
-
-
-
-
-
-
-
-

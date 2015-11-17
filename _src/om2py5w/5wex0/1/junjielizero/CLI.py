@@ -31,5 +31,3 @@ while True:
       soup = BeautifulSoup(r.text, "html.parser")
       for i in soup.find_all('pre'):
           print i.get_text()
-
-
