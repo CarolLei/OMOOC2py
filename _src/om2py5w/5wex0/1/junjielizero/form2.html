@@ -12,7 +12,7 @@
 
     
   
-     %for k in sorted(kv.getkeys_by_prefix("c:")):    
+     %for k in sorted(kv.getkeys_by_prefix("c:"),key=lambda x:int(x.split(':')[-1])):    
      <pre>{{ kv.get(k) }}</pre>
      %end
 </body>
