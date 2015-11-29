@@ -2,5 +2,8 @@
 
 ## 6w
 
-- 私人笔记:
-    + 移动 web 应用
+微信公众号笔记:
+
+* 微信号：Zero私人笔记
+* 关注后随便输点东西就可看到指示
+* ![](https://raw.githubusercontent.com/junjielizero/OMOOC2py/master/_src/om2py6w/6wex0/zerowechat/微信演示.png)
