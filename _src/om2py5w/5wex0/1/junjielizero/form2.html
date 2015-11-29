@@ -8,11 +8,11 @@
 <form action="/write" method="post">
       content: <input name="content" type="text" />
 </form>
-    <p>{{ content }}</p>
+    <p>主题：{{ tag }}</p>
+    <p>内容：{{ content }}</p>
+    <pre>该主题历史记录，共有{{  number }}条记录</pre>
 
-    
-  
-     %for k in sorted(kv.getkeys_by_prefix("c:"),key=lambda x:int(x.split(':')[-1])):    
+     %for k in sorted(kv.getkeys_by_prefix(key),key=lambda x:int(x.split(':')[-1])):    
      <pre>{{ kv.get(k) }}</pre>
      %end
 </body>
