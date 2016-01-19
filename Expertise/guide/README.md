@@ -67,4 +67,4 @@
 
 参考文献：
 
-* Delibrate Performance:
+* [Deliberate performance: Accelerating expertise in natural settings](https://www.researchgate.net/profile/Peter_Fadde/publication/227690136_Deliberate_performance_Accelerating_expertise_in_natural_settings/links/00b4953c201dbd5ee4000000.pdf)
